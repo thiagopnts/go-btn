@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/KnutZuidema/go-btn/pkg/jsonrpc"
-	"github.com/KnutZuidema/go-btn/pkg/model"
+	"github.com/thiagopnts/go-btn/pkg/jsonrpc"
+	"github.com/thiagopnts/go-btn/pkg/model"
 )
 
 type Client struct {
