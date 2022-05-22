@@ -16,7 +16,7 @@ type Client struct {
 
 func NewClient(client *http.Client, apiKey string) *Client {
 	return &Client{
-		client: jsonrpc.NewClient(client, "http://api.broadcasthe.net/"),
+		client: jsonrpc.NewClient(client, "https://api.broadcasthe.net/"),
 		apiKey: apiKey,
 	}
 }
