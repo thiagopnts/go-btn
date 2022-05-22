@@ -1,3 +1,3 @@
-module github.com/KnutZuidema/go-btn
+module github.com/thiagopnts/go-btn
 
 go 1.12
